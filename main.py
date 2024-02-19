@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error
 
 # Center-align the title using Markdown
-st.markdown("<h1 style='text-align: center;'>Car Prediction</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Predicting Car Sale Prices</h1>", unsafe_allow_html=True)
 
 # Load the dataset
 df = pd.read_csv('Car_sales.csv')
