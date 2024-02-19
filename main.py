@@ -24,8 +24,8 @@ model = LinearRegression()
 model.fit(xtrain, ytrain)
 
 # Create input fields for the user to enter car details
-Price_in_thousands = st.number_input('Enter Price_in_thousands', min_value=1000)
-Horsepower = st.number_input('Enter Horsepower of the car', min_value=0)
+Price_in_thousands = st.number_input('manufactural price', min_value=1000)
+Horsepower = st.number_input('Enter Horsepower ', min_value=0)
 Wheelbase = st.number_input('Enter Wheelbase of the car', min_value=0)
 Width = st.number_input('Enter Width', min_value=0)
 Length = st.number_input('Enter Length', min_value=0)
